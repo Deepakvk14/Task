@@ -1,0 +1,28 @@
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: var(--bs-modal-padding);
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.product_Image img {
+    width: 264px;
+}
+.product_Image {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blueviolet;
+}
+.product_price {
+    text-align: right;
+    /* width: 00px; */
+}
+.product_price div {
+    display: flex;
+    flex: end;
+    justify-content: space-between;
+}
